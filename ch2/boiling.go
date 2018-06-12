@@ -1,6 +1,8 @@
 // Boiling prints the boiling point of water.
 package main
 
+import "fmt"
+
 const boilingF = 212.0
 const sss = 2
 
@@ -9,3 +11,7 @@ const sss = 2
 // 	var c = (f - 32) * 5 / 9
 // 	fmt.Printf("boiling point = %g°F or %g°C\n", f, c)
 // }
+
+func test() {
+	fmt.Println("test")
+}
